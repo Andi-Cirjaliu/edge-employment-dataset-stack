@@ -13,14 +13,14 @@ The dataset contains the US Employment and Unemployment rates since 1940 from US
 
 ***Introduction***
 
-US Employment rates application is a Java Spring application which is deployed as a microservice. The frontend is made using React and is included in the Java application.
+US Employment rates application is a Java Spring application which is deployed as a microservice.
 The example also uses Skaffold which handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
 
 ***Architecture***
 
 ![architecture](_images/arch.png)
 
-This stack consists of a Java backend and a React frontend that are displaying data from a dataset. The frontend build using React is included in the Java backend.
+This application consists of a Java backend and a React frontend that is displaying data from a dataset. The frontend is included in the Java backend.
 
 ***Code Structure***
 
@@ -32,7 +32,7 @@ It follows a simple modular and MVC pattern. There are 2 folders that are of our
 
 ### Try the example
 
-Clone the application code
+Get the application code
 ```execute
 cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git
 ```
