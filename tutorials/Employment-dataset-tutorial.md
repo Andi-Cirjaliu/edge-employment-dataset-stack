@@ -22,7 +22,7 @@ The example also uses Skaffold which handles the workflow for building, pushing 
 
 ***Code Structure***
 
-![codestructure](_images/employment-app-structure.PNG)
+![codestructure](_images/employment-app-structure.png)
 
 It follows a simple modular and MVC pattern. There are 2 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.
@@ -30,7 +30,6 @@ It follows a simple modular and MVC pattern. There are 2 folders that are of our
 
 ### Try the example
 
-```
 Clone the application code
 ```execute
 cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-java-react-dataset-deploy.git
