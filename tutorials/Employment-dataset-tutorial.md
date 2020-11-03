@@ -16,9 +16,11 @@ The dataset contains the US Employment and Unemployment rates since 1940 from US
 US Employment rates application is a Java Spring application which is deployed as a microservice. The frontend is made using React and is included in the Java application.
 The example also uses Skaffold which handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code.
 
-### Architecture
+***Architecture***
 
 ![architecture](_images/arch.png)
+
+This stack consists of a Java backend and a React frontend that are displaying data from a dataset. The frontend build using React is included in the Java backend.
 
 ***Code Structure***
 
