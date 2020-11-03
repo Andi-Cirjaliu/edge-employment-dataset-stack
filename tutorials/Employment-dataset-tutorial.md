@@ -28,7 +28,7 @@ This application consists of a Java backend and a React frontend that is display
 
 It follows a simple modular and MVC pattern. There are 2 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.
-- backend: This contains all the backend code that is building using Java Spring. The frontend build in React is included in the backend.
+- backend: This contains all the backend code made using Java Spring. The frontend build in React is included in the backend.
 
 ### Try the example
 
@@ -49,7 +49,7 @@ cd /home/student/projects/edge-java-react-dataset-deploy && skaffold config set 
 
 ### Access the example application
 
-Click on the Key icon on the Stack Builder Dashboard and copy the value under the `DNS` section and `IP` field
+Click on the Key icon on the dashboard and copy the value under the `DNS` section and `IP` field
 
 URL :  http://##DNS.ip##:30091
 
